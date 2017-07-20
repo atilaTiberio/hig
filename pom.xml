@@ -64,11 +64,6 @@
       <artifactId>hadoop-common</artifactId>
       <version>2.7.3</version>
     </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient</artifactId>
-      <version>4.5.3</version>
-    </dependency>
 
     <dependency>
       <groupId>org.apache.hadoop</groupId>
@@ -85,6 +80,12 @@
           <artifactId>aws-java-sdk-dynamodb</artifactId>
           <version>1.11.147</version>
       </dependency>
+
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.2.5</version>
+    </dependency>
 
 
   </dependencies>
