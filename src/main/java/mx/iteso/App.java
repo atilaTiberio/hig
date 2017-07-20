@@ -51,26 +51,24 @@ public class App
         ¿Podria meter aqui el procedimiento para leer el output ya que termino el proceso e importar los a Dynamo?
          */
         if(res){
-            Path p=new Path(args[1]);
-            FileSystem fs=p.getFileSystem(conf);
+            try {
+                Path p = new Path(args[1]);
+                FileSystem fs = p.getFileSystem(conf);
+                ParseFile pf = new ParseFile(args[2]);
 
-            FileStatus[] status= fs.listStatus(p, file -> file.getName().startsWith("part"));
-            Integer totalLines=0;
-            for(int i=0; i<status.length;i++){
-                System.out.println(status[i].getPath());
+                FileStatus[] status = fs.listStatus(p, file -> file.getName().startsWith("part"));
+                Integer totalLines = 0;
+                for (int i = 0; i < status.length; i++) {
+                    System.out.println(status[i].getPath());
+                    System.out.println("Loading to DYnamo");
+                    pf.loadFile(fs.open(status[i].getPath()).getWrappedStream());
 
-                BufferedReader br=new BufferedReader(new InputStreamReader(fs.open(status[i].getPath()),"UTF-8"));
-                String line;
-                line=br.readLine();
-                while (line != null){
-                    line=br.readLine();
-
-                    totalLines++;
                 }
             }
-            System.out.printf("Total Lines : %d \n",totalLines);
-
-
+            catch(Exception e){
+                e.printStackTrace();
+                System.out.println("Fallo al cargar a dynamo");
+            }
         }
 
         System.exit(res?0:1);
