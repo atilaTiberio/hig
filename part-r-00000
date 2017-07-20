@@ -1,0 +1,333 @@
+entidad,AGUASCALIENTES,ND,1
+entidad,AGUASCALIENTES,Normal,25
+entidad,AGUASCALIENTES,Obesidad,25
+entidad,AGUASCALIENTES,Sobrepeso,19
+entidad,BAJA CALIFORNIA SUR,ND,1
+entidad,BAJA CALIFORNIA SUR,Normal,19
+entidad,BAJA CALIFORNIA SUR,Obesidad,25
+entidad,BAJA CALIFORNIA SUR,Sobrepeso,26
+entidad,BAJA CALIFORNIA,ND,4
+entidad,BAJA CALIFORNIA,Normal,40
+entidad,BAJA CALIFORNIA,Obesidad,52
+entidad,BAJA CALIFORNIA,Sobrepeso,69
+entidad,CAMPECHE,Normal,14
+entidad,CAMPECHE,Obesidad,23
+entidad,CAMPECHE,Sobrepeso,42
+entidad,CHIAPAS,ND,6
+entidad,CHIAPAS,Normal,175
+entidad,CHIAPAS,Obesidad,226
+entidad,CHIAPAS,Sobrepeso,149
+entidad,CHIHUAHUA,ND,2
+entidad,CHIHUAHUA,Normal,72
+entidad,CHIHUAHUA,Obesidad,103
+entidad,CHIHUAHUA,Sobrepeso,83
+entidad,COAHUILA DE ZARAGOZA,ND,3
+entidad,COAHUILA DE ZARAGOZA,Normal,34
+entidad,COAHUILA DE ZARAGOZA,Obesidad,47
+entidad,COAHUILA DE ZARAGOZA,Sobrepeso,54
+entidad,DISTRITO FEDERAL,ND,1
+entidad,DISTRITO FEDERAL,Normal,143
+entidad,DISTRITO FEDERAL,Obesidad,222
+entidad,DISTRITO FEDERAL,Sobrepeso,221
+entidad,DURANGO,ND,2
+entidad,DURANGO,Normal,82
+entidad,DURANGO,Obesidad,93
+entidad,DURANGO,Sobrepeso,101
+entidad,GUANAJUATO,ND,1
+entidad,GUANAJUATO,Normal,140
+entidad,GUANAJUATO,Obesidad,236
+entidad,GUANAJUATO,Sobrepeso,176
+entidad,GUERRERO,ND,1
+entidad,GUERRERO,Normal,88
+entidad,GUERRERO,Obesidad,100
+entidad,GUERRERO,Sobrepeso,93
+entidad,HIDALGO,Normal,68
+entidad,HIDALGO,Obesidad,99
+entidad,HIDALGO,Sobrepeso,42
+entidad,JALISCO,ND,4
+entidad,JALISCO,Normal,75
+entidad,JALISCO,Obesidad,127
+entidad,JALISCO,Sobrepeso,100
+entidad,MICHOACÁN DE OCAMPO,ND,5
+entidad,MICHOACÁN DE OCAMPO,Normal,66
+entidad,MICHOACÁN DE OCAMPO,Obesidad,90
+entidad,MICHOACÁN DE OCAMPO,Sobrepeso,90
+entidad,MORELOS,Normal,24
+entidad,MORELOS,Obesidad,25
+entidad,MORELOS,Sobrepeso,19
+entidad,MÉXICO,ND,9
+entidad,MÉXICO,Normal,192
+entidad,MÉXICO,Obesidad,324
+entidad,MÉXICO,Sobrepeso,266
+entidad,NAYARIT,ND,1
+entidad,NAYARIT,Normal,23
+entidad,NAYARIT,Obesidad,24
+entidad,NAYARIT,Sobrepeso,16
+entidad,NUEVO LEÓN,ND,2
+entidad,NUEVO LEÓN,Normal,59
+entidad,NUEVO LEÓN,Obesidad,117
+entidad,NUEVO LEÓN,Sobrepeso,109
+entidad,PUEBLA,ND,2
+entidad,PUEBLA,Normal,114
+entidad,PUEBLA,Obesidad,155
+entidad,PUEBLA,Sobrepeso,132
+entidad,QUERÉTARO,ND,1
+entidad,QUERÉTARO,Normal,43
+entidad,QUERÉTARO,Obesidad,86
+entidad,QUERÉTARO,Sobrepeso,66
+entidad,QUINTANA ROO,ND,1
+entidad,QUINTANA ROO,Normal,19
+entidad,QUINTANA ROO,Obesidad,25
+entidad,QUINTANA ROO,Sobrepeso,38
+entidad,SAN LUIS POTOSÍ,ND,2
+entidad,SAN LUIS POTOSÍ,Normal,123
+entidad,SAN LUIS POTOSÍ,Obesidad,151
+entidad,SAN LUIS POTOSÍ,Sobrepeso,109
+entidad,SINALOA,ND,1
+entidad,SINALOA,Normal,58
+entidad,SINALOA,Obesidad,85
+entidad,SINALOA,Sobrepeso,98
+entidad,SONORA,ND,2
+entidad,SONORA,Normal,66
+entidad,SONORA,Obesidad,115
+entidad,SONORA,Sobrepeso,107
+entidad,TABASCO,ND,1
+entidad,TABASCO,Normal,33
+entidad,TABASCO,Obesidad,69
+entidad,TABASCO,Sobrepeso,86
+entidad,TAMAULIPAS,ND,3
+entidad,TAMAULIPAS,Normal,74
+entidad,TAMAULIPAS,Obesidad,117
+entidad,TAMAULIPAS,Sobrepeso,151
+entidad,TLAXCALA,Normal,34
+entidad,TLAXCALA,Obesidad,47
+entidad,TLAXCALA,Sobrepeso,61
+entidad,VERACRUZ DE IGNACIO DE LA LL,ND,9
+entidad,VERACRUZ DE IGNACIO DE LA LL,Normal,185
+entidad,VERACRUZ DE IGNACIO DE LA LL,Obesidad,289
+entidad,VERACRUZ DE IGNACIO DE LA LL,Sobrepeso,293
+entidad,YUCATÁN,ND,1
+entidad,YUCATÁN,Normal,36
+entidad,YUCATÁN,Obesidad,38
+entidad,YUCATÁN,Sobrepeso,38
+entidad,ZACATECAS,Normal,61
+entidad,ZACATECAS,Obesidad,63
+entidad,ZACATECAS,Sobrepeso,51
+entidad,desc_ent,ND,1
+entidad_genero,AGUASCALIENTES,Hombre,ND,1
+entidad_genero,AGUASCALIENTES,Hombre,Normal,15
+entidad_genero,AGUASCALIENTES,Hombre,Obesidad,16
+entidad_genero,AGUASCALIENTES,Hombre,Sobrepeso,14
+entidad_genero,AGUASCALIENTES,Mujer,Normal,10
+entidad_genero,AGUASCALIENTES,Mujer,Obesidad,9
+entidad_genero,AGUASCALIENTES,Mujer,Sobrepeso,5
+entidad_genero,BAJA CALIFORNIA SUR,Hombre,ND,1
+entidad_genero,BAJA CALIFORNIA SUR,Hombre,Normal,14
+entidad_genero,BAJA CALIFORNIA SUR,Hombre,Obesidad,11
+entidad_genero,BAJA CALIFORNIA SUR,Hombre,Sobrepeso,16
+entidad_genero,BAJA CALIFORNIA SUR,Mujer,Normal,5
+entidad_genero,BAJA CALIFORNIA SUR,Mujer,Obesidad,14
+entidad_genero,BAJA CALIFORNIA SUR,Mujer,Sobrepeso,10
+entidad_genero,BAJA CALIFORNIA,Hombre,ND,3
+entidad_genero,BAJA CALIFORNIA,Hombre,Normal,21
+entidad_genero,BAJA CALIFORNIA,Hombre,Obesidad,28
+entidad_genero,BAJA CALIFORNIA,Hombre,Sobrepeso,38
+entidad_genero,BAJA CALIFORNIA,Mujer,ND,1
+entidad_genero,BAJA CALIFORNIA,Mujer,Normal,19
+entidad_genero,BAJA CALIFORNIA,Mujer,Obesidad,24
+entidad_genero,BAJA CALIFORNIA,Mujer,Sobrepeso,31
+entidad_genero,CAMPECHE,Hombre,Normal,7
+entidad_genero,CAMPECHE,Hombre,Obesidad,12
+entidad_genero,CAMPECHE,Hombre,Sobrepeso,32
+entidad_genero,CAMPECHE,Mujer,Normal,7
+entidad_genero,CAMPECHE,Mujer,Obesidad,11
+entidad_genero,CAMPECHE,Mujer,Sobrepeso,10
+entidad_genero,CHIAPAS,Hombre,ND,4
+entidad_genero,CHIAPAS,Hombre,Normal,100
+entidad_genero,CHIAPAS,Hombre,Obesidad,131
+entidad_genero,CHIAPAS,Hombre,Sobrepeso,112
+entidad_genero,CHIAPAS,Mujer,ND,2
+entidad_genero,CHIAPAS,Mujer,Normal,75
+entidad_genero,CHIAPAS,Mujer,Obesidad,95
+entidad_genero,CHIAPAS,Mujer,Sobrepeso,37
+entidad_genero,CHIHUAHUA,Hombre,ND,2
+entidad_genero,CHIHUAHUA,Hombre,Normal,39
+entidad_genero,CHIHUAHUA,Hombre,Obesidad,57
+entidad_genero,CHIHUAHUA,Hombre,Sobrepeso,58
+entidad_genero,CHIHUAHUA,Mujer,Normal,33
+entidad_genero,CHIHUAHUA,Mujer,Obesidad,46
+entidad_genero,CHIHUAHUA,Mujer,Sobrepeso,25
+entidad_genero,COAHUILA DE ZARAGOZA,Hombre,Normal,14
+entidad_genero,COAHUILA DE ZARAGOZA,Hombre,Obesidad,27
+entidad_genero,COAHUILA DE ZARAGOZA,Hombre,Sobrepeso,38
+entidad_genero,COAHUILA DE ZARAGOZA,Mujer,ND,3
+entidad_genero,COAHUILA DE ZARAGOZA,Mujer,Normal,20
+entidad_genero,COAHUILA DE ZARAGOZA,Mujer,Obesidad,20
+entidad_genero,COAHUILA DE ZARAGOZA,Mujer,Sobrepeso,16
+entidad_genero,DISTRITO FEDERAL,Hombre,Normal,89
+entidad_genero,DISTRITO FEDERAL,Hombre,Obesidad,141
+entidad_genero,DISTRITO FEDERAL,Hombre,Sobrepeso,168
+entidad_genero,DISTRITO FEDERAL,Mujer,ND,1
+entidad_genero,DISTRITO FEDERAL,Mujer,Normal,54
+entidad_genero,DISTRITO FEDERAL,Mujer,Obesidad,81
+entidad_genero,DISTRITO FEDERAL,Mujer,Sobrepeso,53
+entidad_genero,DURANGO,Hombre,ND,1
+entidad_genero,DURANGO,Hombre,Normal,48
+entidad_genero,DURANGO,Hombre,Obesidad,61
+entidad_genero,DURANGO,Hombre,Sobrepeso,78
+entidad_genero,DURANGO,Mujer,ND,1
+entidad_genero,DURANGO,Mujer,Normal,34
+entidad_genero,DURANGO,Mujer,Obesidad,32
+entidad_genero,DURANGO,Mujer,Sobrepeso,23
+entidad_genero,GUANAJUATO,Hombre,Normal,86
+entidad_genero,GUANAJUATO,Hombre,Obesidad,146
+entidad_genero,GUANAJUATO,Hombre,Sobrepeso,125
+entidad_genero,GUANAJUATO,Mujer,ND,1
+entidad_genero,GUANAJUATO,Mujer,Normal,54
+entidad_genero,GUANAJUATO,Mujer,Obesidad,90
+entidad_genero,GUANAJUATO,Mujer,Sobrepeso,51
+entidad_genero,GUERRERO,Hombre,Normal,49
+entidad_genero,GUERRERO,Hombre,Obesidad,65
+entidad_genero,GUERRERO,Hombre,Sobrepeso,70
+entidad_genero,GUERRERO,Mujer,ND,1
+entidad_genero,GUERRERO,Mujer,Normal,39
+entidad_genero,GUERRERO,Mujer,Obesidad,35
+entidad_genero,GUERRERO,Mujer,Sobrepeso,23
+entidad_genero,HIDALGO,Hombre,Normal,34
+entidad_genero,HIDALGO,Hombre,Obesidad,55
+entidad_genero,HIDALGO,Hombre,Sobrepeso,27
+entidad_genero,HIDALGO,Mujer,Normal,34
+entidad_genero,HIDALGO,Mujer,Obesidad,44
+entidad_genero,HIDALGO,Mujer,Sobrepeso,15
+entidad_genero,JALISCO,Hombre,ND,1
+entidad_genero,JALISCO,Hombre,Normal,49
+entidad_genero,JALISCO,Hombre,Obesidad,86
+entidad_genero,JALISCO,Hombre,Sobrepeso,82
+entidad_genero,JALISCO,Mujer,ND,3
+entidad_genero,JALISCO,Mujer,Normal,26
+entidad_genero,JALISCO,Mujer,Obesidad,41
+entidad_genero,JALISCO,Mujer,Sobrepeso,18
+entidad_genero,MICHOACÁN DE OCAMPO,Hombre,ND,1
+entidad_genero,MICHOACÁN DE OCAMPO,Hombre,Normal,27
+entidad_genero,MICHOACÁN DE OCAMPO,Hombre,Obesidad,60
+entidad_genero,MICHOACÁN DE OCAMPO,Hombre,Sobrepeso,61
+entidad_genero,MICHOACÁN DE OCAMPO,Mujer,ND,4
+entidad_genero,MICHOACÁN DE OCAMPO,Mujer,Normal,39
+entidad_genero,MICHOACÁN DE OCAMPO,Mujer,Obesidad,30
+entidad_genero,MICHOACÁN DE OCAMPO,Mujer,Sobrepeso,29
+entidad_genero,MORELOS,Hombre,Normal,15
+entidad_genero,MORELOS,Hombre,Obesidad,13
+entidad_genero,MORELOS,Hombre,Sobrepeso,16
+entidad_genero,MORELOS,Mujer,Normal,9
+entidad_genero,MORELOS,Mujer,Obesidad,12
+entidad_genero,MORELOS,Mujer,Sobrepeso,3
+entidad_genero,MÉXICO,Hombre,ND,6
+entidad_genero,MÉXICO,Hombre,Normal,123
+entidad_genero,MÉXICO,Hombre,Obesidad,208
+entidad_genero,MÉXICO,Hombre,Sobrepeso,200
+entidad_genero,MÉXICO,Mujer,ND,3
+entidad_genero,MÉXICO,Mujer,Normal,69
+entidad_genero,MÉXICO,Mujer,Obesidad,116
+entidad_genero,MÉXICO,Mujer,Sobrepeso,66
+entidad_genero,NAYARIT,Hombre,Normal,18
+entidad_genero,NAYARIT,Hombre,Obesidad,16
+entidad_genero,NAYARIT,Hombre,Sobrepeso,9
+entidad_genero,NAYARIT,Mujer,ND,1
+entidad_genero,NAYARIT,Mujer,Normal,5
+entidad_genero,NAYARIT,Mujer,Obesidad,8
+entidad_genero,NAYARIT,Mujer,Sobrepeso,7
+entidad_genero,NUEVO LEÓN,Hombre,ND,2
+entidad_genero,NUEVO LEÓN,Hombre,Normal,36
+entidad_genero,NUEVO LEÓN,Hombre,Obesidad,84
+entidad_genero,NUEVO LEÓN,Hombre,Sobrepeso,81
+entidad_genero,NUEVO LEÓN,Mujer,Normal,23
+entidad_genero,NUEVO LEÓN,Mujer,Obesidad,33
+entidad_genero,NUEVO LEÓN,Mujer,Sobrepeso,28
+entidad_genero,PUEBLA,Hombre,ND,1
+entidad_genero,PUEBLA,Hombre,Normal,64
+entidad_genero,PUEBLA,Hombre,Obesidad,102
+entidad_genero,PUEBLA,Hombre,Sobrepeso,91
+entidad_genero,PUEBLA,Mujer,ND,1
+entidad_genero,PUEBLA,Mujer,Normal,50
+entidad_genero,PUEBLA,Mujer,Obesidad,53
+entidad_genero,PUEBLA,Mujer,Sobrepeso,41
+entidad_genero,QUERÉTARO,Hombre,Normal,26
+entidad_genero,QUERÉTARO,Hombre,Obesidad,53
+entidad_genero,QUERÉTARO,Hombre,Sobrepeso,54
+entidad_genero,QUERÉTARO,Mujer,ND,1
+entidad_genero,QUERÉTARO,Mujer,Normal,17
+entidad_genero,QUERÉTARO,Mujer,Obesidad,33
+entidad_genero,QUERÉTARO,Mujer,Sobrepeso,12
+entidad_genero,QUINTANA ROO,Hombre,ND,1
+entidad_genero,QUINTANA ROO,Hombre,Normal,10
+entidad_genero,QUINTANA ROO,Hombre,Obesidad,18
+entidad_genero,QUINTANA ROO,Hombre,Sobrepeso,26
+entidad_genero,QUINTANA ROO,Mujer,Normal,9
+entidad_genero,QUINTANA ROO,Mujer,Obesidad,7
+entidad_genero,QUINTANA ROO,Mujer,Sobrepeso,12
+entidad_genero,SAN LUIS POTOSÍ,Hombre,ND,1
+entidad_genero,SAN LUIS POTOSÍ,Hombre,Normal,70
+entidad_genero,SAN LUIS POTOSÍ,Hombre,Obesidad,106
+entidad_genero,SAN LUIS POTOSÍ,Hombre,Sobrepeso,91
+entidad_genero,SAN LUIS POTOSÍ,Mujer,ND,1
+entidad_genero,SAN LUIS POTOSÍ,Mujer,Normal,53
+entidad_genero,SAN LUIS POTOSÍ,Mujer,Obesidad,45
+entidad_genero,SAN LUIS POTOSÍ,Mujer,Sobrepeso,18
+entidad_genero,SINALOA,Hombre,ND,1
+entidad_genero,SINALOA,Hombre,Normal,25
+entidad_genero,SINALOA,Hombre,Obesidad,56
+entidad_genero,SINALOA,Hombre,Sobrepeso,68
+entidad_genero,SINALOA,Mujer,Normal,33
+entidad_genero,SINALOA,Mujer,Obesidad,29
+entidad_genero,SINALOA,Mujer,Sobrepeso,30
+entidad_genero,SONORA,Hombre,ND,1
+entidad_genero,SONORA,Hombre,Normal,44
+entidad_genero,SONORA,Hombre,Obesidad,65
+entidad_genero,SONORA,Hombre,Sobrepeso,73
+entidad_genero,SONORA,Mujer,ND,1
+entidad_genero,SONORA,Mujer,Normal,22
+entidad_genero,SONORA,Mujer,Obesidad,50
+entidad_genero,SONORA,Mujer,Sobrepeso,34
+entidad_genero,TABASCO,Hombre,ND,1
+entidad_genero,TABASCO,Hombre,Normal,18
+entidad_genero,TABASCO,Hombre,Obesidad,46
+entidad_genero,TABASCO,Hombre,Sobrepeso,55
+entidad_genero,TABASCO,Mujer,Normal,15
+entidad_genero,TABASCO,Mujer,Obesidad,23
+entidad_genero,TABASCO,Mujer,Sobrepeso,31
+entidad_genero,TAMAULIPAS,Hombre,ND,2
+entidad_genero,TAMAULIPAS,Hombre,Normal,48
+entidad_genero,TAMAULIPAS,Hombre,Obesidad,79
+entidad_genero,TAMAULIPAS,Hombre,Sobrepeso,128
+entidad_genero,TAMAULIPAS,Mujer,ND,1
+entidad_genero,TAMAULIPAS,Mujer,Normal,26
+entidad_genero,TAMAULIPAS,Mujer,Obesidad,38
+entidad_genero,TAMAULIPAS,Mujer,Sobrepeso,23
+entidad_genero,TLAXCALA,Hombre,Normal,22
+entidad_genero,TLAXCALA,Hombre,Obesidad,25
+entidad_genero,TLAXCALA,Hombre,Sobrepeso,50
+entidad_genero,TLAXCALA,Mujer,Normal,12
+entidad_genero,TLAXCALA,Mujer,Obesidad,22
+entidad_genero,TLAXCALA,Mujer,Sobrepeso,11
+entidad_genero,VERACRUZ DE IGNACIO DE LA LL,Hombre,ND,6
+entidad_genero,VERACRUZ DE IGNACIO DE LA LL,Hombre,Normal,105
+entidad_genero,VERACRUZ DE IGNACIO DE LA LL,Hombre,Obesidad,190
+entidad_genero,VERACRUZ DE IGNACIO DE LA LL,Hombre,Sobrepeso,227
+entidad_genero,VERACRUZ DE IGNACIO DE LA LL,Mujer,ND,3
+entidad_genero,VERACRUZ DE IGNACIO DE LA LL,Mujer,Normal,80
+entidad_genero,VERACRUZ DE IGNACIO DE LA LL,Mujer,Obesidad,99
+entidad_genero,VERACRUZ DE IGNACIO DE LA LL,Mujer,Sobrepeso,66
+entidad_genero,YUCATÁN,Hombre,Normal,21
+entidad_genero,YUCATÁN,Hombre,Obesidad,22
+entidad_genero,YUCATÁN,Hombre,Sobrepeso,28
+entidad_genero,YUCATÁN,Mujer,ND,1
+entidad_genero,YUCATÁN,Mujer,Normal,15
+entidad_genero,YUCATÁN,Mujer,Obesidad,16
+entidad_genero,YUCATÁN,Mujer,Sobrepeso,10
+entidad_genero,ZACATECAS,Hombre,Normal,43
+entidad_genero,ZACATECAS,Hombre,Obesidad,41
+entidad_genero,ZACATECAS,Hombre,Sobrepeso,32
+entidad_genero,ZACATECAS,Mujer,Normal,18
+entidad_genero,ZACATECAS,Mujer,Obesidad,22
+entidad_genero,ZACATECAS,Mujer,Sobrepeso,19
+entidad_genero,desc_ent,sexo,ND,1
