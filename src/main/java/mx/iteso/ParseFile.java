@@ -1,5 +1,6 @@
 package mx.iteso;
 
+import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
@@ -10,6 +11,7 @@ import com.amazonaws.services.dynamodbv2.model.WriteRequest;
 import com.opencsv.CSVParser;
 import com.opencsv.CSVReader;
 import mx.iteso.utility.Obesidad;
+import org.apache.http.impl.client.BasicCredentialsProvider;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -23,9 +25,11 @@ public class ParseFile {
     public static AmazonDynamoDB db;
 
     public static  void main(String[] args) throws IOException {
+        //BasicAWSCredentials cred=new BasicAWSCredentials(accessKey,secretKey);
+
         db= AmazonDynamoDBClientBuilder
                 .standard()
-                .withRegion("..")
+                .withRegion(Regions.US_EAST_1)
                 .build();
         String dbName="tabla";
 
@@ -45,37 +49,21 @@ public class ParseFile {
         //String[] record=reader.readNext();
         String[] record=null;
 
-        /*do{
-            item= new Obesidad(record);
-            request=new WriteRequest(new PutRequest().withItem(item.getDynamoItem()));
-            requestList.add(request);
-
-            if(requestList.size()==25){
-                //writeBatch(dbName,requestList);
-                System.out.println(requestList.size());
-                requestList.clear();
-
-            }
-        }while((record=reader.readNext())!=null); */
-
         while((record=reader.readNext())!=null){
             item= new Obesidad(record);
             request=new WriteRequest(new PutRequest().withItem(item.getDynamoItem()));
             requestList.add(request);
 
             if(requestList.size()==25){
-                //writeBatch(dbName,requestList);
-                System.out.println(requestList.size());
-
-
+                writeBatch(dbName,requestList);
                 requestList.clear();
 
             }
         }
 
         if(requestList.size()>0){
-            //writeBatch(dbName,requestList);
-            System.out.println(requestList.size());
+            writeBatch(dbName,requestList);
+
         }
 
 
