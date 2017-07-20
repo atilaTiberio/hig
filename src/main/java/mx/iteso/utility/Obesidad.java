@@ -2,8 +2,12 @@ package mx.iteso.utility;
 
 import com.amazonaws.services.dynamodbv2.model.AttributeValue;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 /**
  * Created by hiturbe on 19/07/17.
@@ -52,28 +56,23 @@ public class Obesidad {
     public Map<String, AttributeValue> getDynamoItem(){
         Map<String, AttributeValue> item= new HashMap<String, AttributeValue>();
 
+        item.put("tipo", new AttributeValue(this.tipo));
+        item.put("entidad", new AttributeValue(this.entidad));
+        item.put("clase",new AttributeValue(this.clase));
+        item.put("total",new AttributeValue(this.total));
 
-        switch (this.tipo){
-            case "entidad":
-                item.put("tipo", new AttributeValue(this.tipo));
-                item.put("entidad", new AttributeValue(this.entidad));
-                item.put("clase",new AttributeValue(this.clase));
-                item.put("total",new AttributeValue(this.total));
+       if(this.tipo!=null&&this.tipo.equals("entidad_genero"))
+           item.put("genero",new AttributeValue(this.genero));
 
-                break;
-            case "entidad_genero":
 
-                item.put("tipo", new AttributeValue(this.tipo));
-                item.put("entidad", new AttributeValue(this.entidad));
-                item.put("genero",new AttributeValue(this.genero));
-                item.put("clasificacion",new AttributeValue(this.clase));
-                item.put("total",new AttributeValue(this.total));
-                break;
-        }
+        SimpleDateFormat sdf= new SimpleDateFormat("dd/MM/yyyy HH:mm:ss.SSS_");
+        Random r = new Random();
 
+        String time=sdf.format(new Date(System.currentTimeMillis()))+r.nextInt(Integer.MAX_VALUE);
         AttributeValue ts= new AttributeValue();
-        ts.setN(Long.toString(System.currentTimeMillis()));
+        ts.setS(time);
         item.put("timestamp",ts);
+
 
         return item;
 
